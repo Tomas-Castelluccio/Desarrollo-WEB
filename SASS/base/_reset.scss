@@ -1,5 +1,5 @@
 //variables
-@use "../utilities/variables";
+@use "../utilities/variables" as *;
 
 /* reset */
  *{
@@ -10,6 +10,6 @@
 
  /* estilos generales */
  body{
-    background-color: $body-bg;
+    background-color: $color-principal;
     color: $color-tipografia;
  }

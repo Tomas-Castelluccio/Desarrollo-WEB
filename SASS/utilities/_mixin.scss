@@ -1,5 +1,5 @@
 //con parámetros
-@mixin border($border){
+@mixin border($border, $padding){
     border-radius: $border;
     padding: $padding;
 }

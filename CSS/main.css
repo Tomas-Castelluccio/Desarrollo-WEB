@@ -1,18 +1,229 @@
-/* Error: Undefined variable.
- *    ,
- * 13 |     background-color: $body-bg;
- *    |                       ^^^^^^^^
- *    '
- *   SASS\base\_reset.scss 13:23  @use
- *   sass\style.scss 2:1          root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 13 \2502      background-color: $body-bg;\d\a    \2502                        ^^^^^^^^\a    \2575 \a   SASS\\base\\_reset.scss 13:23  @use\a   sass\\style.scss 2:1          root stylesheet";
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* estilos generales */
+body {
+  background-color: rgba(185, 2, 17, 0.842);
+  color: #000000;
+}
+
+/* estilos de header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  gap: 1.3rem;
+}
+header .botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+header .botones .boton-uno, header .botones .boton-dos, header .botones .boton-tres, header .botones .boton-cuatro, header .botones .boton-cinco {
+  border-radius: 80px;
+  padding: 1rem;
+  font-size: 190%;
+  font-weight: bolder;
+}
+header .botones .boton-uno {
+  background-color: rgba(185, 2, 17, 0.842);
+}
+header .botones .boton-dos {
+  background-color: rgba(185, 2, 17, 0.842);
+}
+header .botones .boton-tres {
+  background-color: rgba(185, 2, 17, 0.842);
+}
+header .botones .boton-cuatro {
+  background-color: rgba(185, 2, 17, 0.842);
+}
+header .botones .boton-cinco {
+  background-color: rgba(185, 2, 17, 0.842);
+}
+
+/* estilos de main */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  gap: 1rem;
+}
+main h1 {
+  font-weight: bolder;
+  font-size: 1.9rem;
+}
+main h1 span {
+  display: block;
+  color: #000000;
+  text-decoration: underline;
+}
+main h2 {
+  padding-inline: 4rem;
+  box-sizing: border-box;
+  margin: 1rem;
+}
+main h3 {
+  padding-inline-start: 0.1rem;
+  box-sizing: border-box;
+  margin: 0.1rem;
+}
+main a {
+  border-radius: 80px;
+  padding: 1rem;
+  font-size: 190%;
+  font-weight: bolder;
+}
+main p {
+  padding: 3rem;
+  font-size: 1.3rem;
+  padding-inline: 9rem;
+  box-sizing: border-box;
+  margin: 1rem;
+  font-size: 1rem;
+}
+main .img {
+  margin-top: 1rem;
+  background-color: rgb(168, 168, 168);
+  border-radius: 20px;
+  padding: 1.3rem;
+}
+main .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 0.01rem;
+}
+main .wrapper {
+  padding: 0 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+main .tarjeta {
+  background-color: #e6e6e6;
+  padding: 2rem;
+  border-radius: 20px;
+  gap: 1rem;
+}
+main .intro {
+  flex: 1;
+  padding: 1rem 3rem;
+}
+
+/* estilos de section */
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  gap: 1rem;
+}
+section .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+section .contenedor-tarjetas {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+section .contenedor-tarjetas .tarjeta {
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  padding: 2rem;
+}
+section .contenedor-tarjetas .tarjeta img {
+  width: 100%;
+  height: 65%;
+}
+section h2 {
+  padding-inline: 4rem;
+  box-sizing: border-box;
+  margin: 1rem;
+}
+section h3 {
+  padding-inline-start: 0.1rem;
+  box-sizing: border-box;
+  margin: 0.1rem;
+}
+section p {
+  padding: 3rem;
+  font-size: 1.3rem;
+  padding-inline: 9rem;
+  box-sizing: border-box;
+  margin: 1rem;
+  font-size: 1rem;
+}
+section .intro {
+  padding: 1rem 3rem;
+}
+
+footer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  header .botones {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  main {
+    padding: 4rem;
+  }
+  main h1 {
+    font-size: 3.3rem;
+  }
+  main .img img {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+  }
+  section .contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  header nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  main {
+    padding: 2% 5%;
+    text-align: center;
+  }
+  section .img {
+    grid-area: img;
+  }
+  section .textos {
+    grid-area: textos;
+  }
+  section .contenedor-tarjetas {
+    grid-area: contenedor;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
