@@ -1,0 +1,31 @@
+//variables
+@use "../utilities/variables" as *;
+//mixin
+@use "../utilities/mixin" as *;
+
+@media screen and (min-width: 1024px) {
+    header{
+        nav{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+    }
+
+    main{
+        padding: 2% 5%;
+        text-align: center;
+    }
+
+    section .img{
+        grid-area: img;
+    }
+
+    section .textos{
+        grid-area: textos;
+    }
+
+    section .contenedor-tarjetas{
+        grid-area: contenedor;
+    }
+}

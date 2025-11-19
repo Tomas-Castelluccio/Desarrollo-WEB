@@ -1,0 +1,35 @@
+//con parámetros
+@mixin border($border){
+    border-radius: $border;
+    padding: $padding;
+}
+
+//sin parámetros
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    gap: 1.3rem;
+}
+
+@mixin botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+//híbrido
+@mixin main-section($padding, $gap){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: $padding;
+    gap: $gap;
+}

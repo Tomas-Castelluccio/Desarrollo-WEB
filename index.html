@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link de Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <!-- Link de CSS -->
     <link rel="stylesheet" href="./CSS/main.css">
     <title>Turismo Motor</title>
@@ -15,42 +12,46 @@
     <!--Convertir imagen en botón-->
     <form action="index.html">
        <input type="image" src="./Images/Turismo Motor Logo.png" width="300px" height="90px">
-          <main>
-                <div class="botones">
-                    <div class="boton-uno">
-                        <a href="./pages/turismo argentinov2.html">Turismo Argentino</a>
-                    </div>
-                    <div class="boton-dos">
-                        <a href="">Turismo Internacional</a>
-                    </div>
-                    <div class="boton-tres">
-                        <a href="">Resistencia</a>
-                    </div>
-                    <div class="boton-cuatro">
-                        <a href="">Monoplazas</a>
-                    </div>
-                    <div class="boton-cinco">
-                        <a href="./pages/opinionesv2.html">Opiniones</a>
-                    </div>
-                </div>
-          </main>
+          <header>
+                 <nav>
+                     <ul>
+                        <li class="botones">
+                           <div class="boton-uno">
+                               <a href="./pages/turismoargentino.html">Turismo Argentino</a>
+                           </div>
+                           <div class="boton-dos">
+                               <a href="">Turismo Internacional</a>
+                           </div>
+                           <div class="boton-tres">
+                               <a href="">Resistencia</a>
+                           </div>
+                           <div class="boton-cuatro">
+                               <a href="">Monoplazas</a>
+                           </div>
+                           <div class="boton-cinco">
+                               <a href="./pages/opiniones.html">Opiniones</a>
+                           </div>
+                        </li>
+                    </ul>
+                 </nav>
+          </header>
     </form>
     <!--Contenido principal-->
     <!--Uso de divisones y clases para poder separar el contenido-->
-    <section>
+    <main>
         <!--Tarjetas-->
            <div class="contenedor-tarjetas">
                <div class="tarjeta">
                    <h1><u>Destacado</u></h1>
-                   <img src="./Images/G15gAFnXoAA_Uq7.jpg" width="380px" height="380px">
-                   <h1>Decepción en Maranello</h1>
-                   <p>Ferrari a duras penas logra sacar un punto de Fuji y deberán definir los títulos en la final de Bahrein ante sus rivales Porsche y Cadillac <a href="">Leer más</a></p>
+                   <img src="./Images/690fa6a27f38f.jpeg" width="380px" height="380px">
+                   <h2>Lo que no se logra en Formula 1, se logra en Hypercar</h2>
+                   <p>Ferrari AF Corse consolida en Bahrein los títulos de pilotos del auto 51 y de fabricantes mientras que los autos 83 y 50 completan un campeonato redondo para Maranello en el WEC <a href="">Leer más</a></p>
                </div>
             </div>
             <!--Tarjetas-->
             <div class="contenedor-tarjetas">
                <div class="tarjeta">
-                   <h1><u>Últimas noticias</u></h1>
+                   <h2><u>Últimas noticias</u></h2>
                    <!--Acomoda el texto al lado de la imagen-->
                    <div class="wrapper">
                        <div class="Canapino-Rossi-TC-2025-e1759693260172">
@@ -69,48 +70,35 @@
                             <h3>Franco Colapinto superó otra desafiante carrera con el Alpine</h3>
                        </div>
                    </div>
-               <h1><u>Video destacado</u></h1>
+               <h2><u>Video destacado</u></h2>
                <iframe width="320" height="200" src="https://www.youtube.com/embed/LAyiedQr454?si=iSwUYvYR7fWuUT7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
     </div>
-    </section>
+</main>
 
     <!--Secciones secundarias-->
     <!--Uso de divisones y clases para poder separar el contenido-->
-    <header>
-        <div style="border: 1px red; width: 99%; height: 80px; margin-top: 30px;">
-         <nav>
-             <ul>
-                <li>
-                   <a href="./opinionesv2.html"> Opiniones</a>
-                </li>
-            </ul>
-         </nav> 
-        </div>
-    </header>
+    <main>
+        <a href="./pages/opiniones.html"> Opiniones</a>
+    </main>
+
     <section>
        <div class="contenedor-tarjetas">
            <div class="tarjeta">
-              <img src="./Images/Imola-2-2025-Ferrari-Hypercar.jpg-800x450.png" alt="">
+              <img src="./Images/Imola-2-2025-Ferrari-Hypercar.jpg-800x450.png" class="card-img-top" alt="image 1">
               <h2>Sobre el BoP y sus problemas y realidades</h2>
            </div>
            <div class="tarjeta">
-              <img src="./Images/G2RdoUsWMAAeOIT.jpg" alt="">
+              <img src="./Images/G2RdoUsWMAAeOIT.jpg" class="card-img-top" alt="image 1">
               <h2>Domenicali y sus ideas bizarras para la F1</h2>
            </div>
        </div>
     </section>
-     <header>
-        <div style="border: 1px red; width: 99%; height: 80px; margin-top: 10px;">
-         <nav>
-             <ul>
-                <li>
-                   <a> Otras noticias</a>
-                </li>
-            </ul>
-         </nav> 
-        </div>
-    </header>
+
+    <main>
+        <a> Otras noticias</a>
+    </main>
+
     <section>
        <div class="contenedor-tarjetas">
            <div class="tarjeta">     
@@ -129,6 +117,10 @@
      <footer>
         <p> 2025 Todos los derechos reservados</p>
      </footer>
+
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     
 </body>
 </html>
