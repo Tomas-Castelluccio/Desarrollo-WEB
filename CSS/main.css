@@ -187,6 +187,7 @@ section .contenedor-tarjetas .tarjeta {
   background-color: #e6e6e6;
   border-radius: 20px;
   padding: 1rem;
+  width: 600px;
 }
 section .contenedor-tarjetas .tarjeta img {
   width: 50%;
