@@ -34,6 +34,9 @@ header .botones .boton-uno, header .botones .boton-dos, header .botones .boton-t
   font-size: 16px;
   font-weight: bolder;
 }
+
+/* animaciones */
+
 header .botones .boton-uno {
   background-color: rgba(185, 2, 17, 0.842);
   width: 180px;
