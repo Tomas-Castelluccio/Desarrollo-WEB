@@ -82,13 +82,13 @@ main{
    }
 
    h2{
-    padding-inline: 4rem;
+    padding-inline: 1rem;
     box-sizing: border-box;
     margin: 1rem;
    }
 
    h3{
-    padding-inline-start: 0.1rem;
+    padding-inline-start: 0.7rem;
     box-sizing: border-box;
     margin: 0.1rem;
    }
@@ -103,7 +103,7 @@ main{
    p{
     padding: 3rem;
     font-size: 1.3rem;
-    padding-inline: 9rem;
+    padding-inline: 3rem;
     box-sizing: border-box;
     margin: 1rem;
     font-size: 1rem;
@@ -121,13 +121,13 @@ main{
    }
 
    .wrapper{
-        padding: 0 5px;
+        padding: 5px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
         gap: 1rem;
-}
+    }
 
    .tarjeta{
         background-color: #e6e6e6;
@@ -175,7 +175,7 @@ section{
     }
 
     h3{
-       padding-inline-start: 0.1rem;
+       padding-inline-start: 0.7rem;
        box-sizing: border-box;
        margin: 0.1rem;
     }
@@ -183,7 +183,7 @@ section{
     p{
        padding: 3rem;
        font-size: 1.3rem;
-       padding-inline: 9rem;
+       padding-inline: 3rem;
        box-sizing: border-box;
        margin: 1rem;
        font-size: 1rem;

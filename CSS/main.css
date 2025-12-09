@@ -84,6 +84,9 @@ header .botones .boton-cinco:hover{
   transform: scale(1.1);
   background-color: red;
 }
+header a{
+  font-size: 10px;
+}
 
 /* estilos de main */
 main {
@@ -105,12 +108,12 @@ main h1 span {
   text-decoration: underline;
 }
 main h2 {
-  padding-inline: 4rem;
+  padding-inline: 1rem;
   box-sizing: border-box;
   margin: 1rem;
 }
 main h3 {
-  padding-inline-start: 0.1rem;
+  padding-inline-start: 0.7rem;
   box-sizing: border-box;
   margin: 0.1rem;
 }
@@ -123,7 +126,7 @@ main a {
 main p {
   padding: 3rem;
   font-size: 1.3rem;
-  padding-inline: 9rem;
+  padding-inline: 3rem;
   box-sizing: border-box;
   margin: 1rem;
   font-size: 1rem;
@@ -200,14 +203,14 @@ section h2 {
   margin: 1rem;
 }
 section h3 {
-  padding-inline-start: 0.1rem;
+  padding-inline-start: 0.7rem;
   box-sizing: border-box;
   margin: 0.1rem;
 }
 section p {
   padding: 3rem;
   font-size: 1.3rem;
-  padding-inline: 9rem;
+  padding-inline: 3rem;
   box-sizing: border-box;
   margin: 1rem;
   font-size: 1rem;
@@ -278,7 +281,7 @@ header .botones .boton-uno, header .botones .boton-dos, header .botones .boton-t
 }
 header .botones .boton-uno {
   background-color: rgba(185, 2, 17, 0.842);
-  width: 173px;
+  width: 124px;
   height: 55px;
   transition: 1s;
 }
@@ -288,7 +291,7 @@ header .botones .boton-uno:hover{
 }
 header .botones .boton-dos {
   background-color: rgba(185, 2, 17, 0.842);
-  width: 196px;
+  width: 136px;
   height: 55px;
   transition: 1s;
 }
@@ -298,7 +301,7 @@ header .botones .boton-dos:hover{
 }
 header .botones .boton-tres {
   background-color: rgba(185, 2, 17, 0.842);
-  width: 160px;
+  width: 100px;
   height: 55px;
   transition: 1s;
 }
@@ -308,7 +311,7 @@ header .botones .boton-tres:hover{
 }
 header .botones .boton-cuatro {
   background-color: rgba(185, 2, 17, 0.842);
-  width: 160px;
+  width: 100px;
   height: 55px;
   transition: 1s;
 }
@@ -318,13 +321,19 @@ header .botones .boton-cuatro:hover{
 }
 header .botones .boton-cinco {
   background-color: rgba(185, 2, 17, 0.842);
-  width: 160px;
+  width: 100px;
   height: 55px;
   transition: 1s;
 }
 header .botones .boton-cinco:hover{
   transform: scale(1.1);
   background-color: red;
+}
+main .contenedor-tarjetas .tarjeta{
+  width: 500px;
+}
+section .contenedor-tarjetas .tarjeta{
+  width: 500px;
 }
 }
 
