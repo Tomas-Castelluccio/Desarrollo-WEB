@@ -1,0 +1,67 @@
+//variables
+@use "../utilities/variables" as *;
+//mixin
+@use "../utilities/mixin" as *;
+
+@media screen and (min-width: 479px) {
+    @include main-section(2rem 1rem, 1.3rem);
+   .botones{
+    @include botones;
+    .boton-uno, .boton-dos, .boton-tres, .boton-cuatro, .boton-cinco{
+        border-radius: 80px;
+        padding: 1rem;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .boton-uno {
+        background-color: rgba(185, 2, 17, 0.842);
+        width: 173px;
+        height: 55px;
+        transition: 1s;
+    }
+    header .botones .boton-uno:hover{
+        transform: scale(1.1);
+        background-color: red;
+    }
+    header .botones .boton-dos {
+        background-color: rgba(185, 2, 17, 0.842);
+        width: 196px;
+        height: 55px;
+        transition: 1s;
+    }
+    header .botones .boton-dos:hover{
+        transform: scale(1.1);
+        background-color: red;
+    }
+    header .botones .boton-tres {
+        background-color: rgba(185, 2, 17, 0.842);
+        width: 160px;
+        height: 55px;
+        transition: 1s;
+    }
+    header .botones .boton-tres:hover{
+        transform: scale(1.1);
+        background-color: red;
+    }
+    header .botones .boton-cuatro {
+        background-color: rgba(185, 2, 17, 0.842);
+        width: 160px;
+        height: 55px;
+        transition: 1s;
+    }
+    header .botones .boton-cuatro:hover{
+        transform: scale(1.1);
+        background-color: red;
+    }
+    header .botones .boton-cinco {
+        background-color: rgba(185, 2, 17, 0.842);
+        width: 160px;
+        height: 55px;
+        transition: 1s;
+    }
+    header .botones .boton-cinco:hover{
+        transform: scale(1.1);
+        background-color: red;
+    }
+   }
+}
