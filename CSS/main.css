@@ -108,12 +108,12 @@ main h1 span {
   text-decoration: underline;
 }
 main h2 {
-  padding-inline: 1rem;
+  padding-inline: 2rem;
   box-sizing: border-box;
   margin: 1rem;
 }
 main h3 {
-  padding-inline-start: 0.7rem;
+  padding-inline-start: 0.3rem;
   box-sizing: border-box;
   margin: 0.1rem;
 }
@@ -126,7 +126,7 @@ main a {
 main p {
   padding: 3rem;
   font-size: 1.3rem;
-  padding-inline: 3rem;
+  padding-inline: 4rem;
   box-sizing: border-box;
   margin: 1rem;
   font-size: 1rem;
@@ -211,7 +211,7 @@ section h3 {
 section p {
   padding: 3rem;
   font-size: 1.3rem;
-  padding-inline: 3rem;
+  padding-inline: 4rem;
   box-sizing: border-box;
   margin: 1rem;
   font-size: 1rem;
