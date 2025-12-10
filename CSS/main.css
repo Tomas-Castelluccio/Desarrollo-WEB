@@ -85,7 +85,7 @@ header .botones .boton-cinco:hover{
   background-color: red;
 }
 header a{
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* estilos de main */
@@ -282,7 +282,7 @@ header .botones .boton-uno, header .botones .boton-dos, header .botones .boton-t
 }
 header .botones .boton-uno {
   background-color: rgba(185, 2, 17, 0.842);
-  width: 124px;
+  width: 147px;
   height: 55px;
   transition: 1s;
 }
@@ -292,7 +292,7 @@ header .botones .boton-uno:hover{
 }
 header .botones .boton-dos {
   background-color: rgba(185, 2, 17, 0.842);
-  width: 136px;
+  width: 166px;
   height: 55px;
   transition: 1s;
 }
