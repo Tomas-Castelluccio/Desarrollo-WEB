@@ -272,7 +272,7 @@ footer {
   }
 }
 
-/* mq-desktop */
+/* mq-mobile */
 @media screen and (min-width: 479px) {
 header .botones .boton-uno, header .botones .boton-dos, header .botones .boton-tres, header .botones .boton-cuatro, header .botones .boton-cinco {
   border-radius: 80px;
